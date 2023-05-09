@@ -1,9 +1,10 @@
 import React from "react";
 
-const Knob = () => {
+const Knob = (props) => {
   return (
-    <div>
-      <h1>knob</h1>
+    <div style={{ border: "2px solid salmon", margin: "20px" }}>
+      <h5>This is Knob component</h5>
+      <p>Steps here is: {props.steps}</p>
     </div>
   );
 };
