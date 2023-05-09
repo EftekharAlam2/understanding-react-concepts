@@ -1,9 +1,12 @@
 import React from "react";
+import DeviceDetails from "./DeviceDetails";
 
-const Device = () => {
+const Device = (props) => {
+  console.log(props);
   return (
     <div>
-      <h1>device</h1>
+      <h3>I have a device: {props.name}</h3>
+      <DeviceDetails price={props.price}></DeviceDetails>
     </div>
   );
 };
