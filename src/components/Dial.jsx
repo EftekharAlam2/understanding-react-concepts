@@ -1,5 +1,5 @@
 import React from "react";
-import Knob from "../Knob";
+import Knob from "./Knob";
 
 const Dial = (props) => {
   return (
